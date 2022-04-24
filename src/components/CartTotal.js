@@ -10,13 +10,13 @@ function CartTotal(props) {
     });
     return total;
   };
-  const getItemCount = () => {
-    let itemCount = 0;
-    props.items.forEach((item) => {
-      itemCount += item.quantity;
-    });
-    return itemCount;
-  };
+  // const getItemCount = () => {
+  //   let itemCount = 0;
+  //   props.items.forEach((item) => {
+  //     itemCount += item.quantity;
+  //   });
+  //   return itemCount;
+  // };
   return (
     <div className="Cart-total">
       <h3>
